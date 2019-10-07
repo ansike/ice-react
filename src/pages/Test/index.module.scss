@@ -1,0 +1,18 @@
+.test {
+  padding: 10px 20px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  display: flex;
+  .header {
+    height: 100px;
+    flex-shrink: 0;
+  }
+  .search {
+    height: 200px;
+    flex-shrink: 0;
+  }
+  .table {
+    flex-grow: 1;
+  }
+}
